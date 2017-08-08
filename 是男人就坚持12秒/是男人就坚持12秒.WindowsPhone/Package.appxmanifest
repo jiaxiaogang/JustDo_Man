@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="43406.58149B9C1BA98" Publisher="CN=B22C2B5E-2135-43E6-AA0D-9F02A7A4496F" Version="1.1.0.0" />
+  <mp:PhoneIdentity PhoneProductId="59606aef-550e-4f3f-a098-7da900401b05" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>是男人就坚持20关</DisplayName>
+    <PublisherDisplayName>贾晓刚</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="是男人就坚持12秒.WindowsPhone.App">
+      <m3:VisualElements DisplayName="是男人就坚持20关" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="是男人就坚持12秒.WindowsPhone" ForegroundText="light" BackgroundColor="green">
+        <m3:DefaultTile Square71x71Logo="Assets\Square71x71Logo.png" ShortName="是男人就坚持20关" DefaultSize="square150x150Logo">
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="Assets\SplashScreen.png" />
+        <m3:ApplicationView MinWidth="width320" />
+        <!--Used in XAML Designer. DO NOT REMOVE-->
+        <m3:InitialRotationPreference>
+          <m3:Rotation Preference="portrait" />
+        </m3:InitialRotationPreference>
+      </m3:VisualElements>
+    </Application>
+  </Applications>
+</Package>
